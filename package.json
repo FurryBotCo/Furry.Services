@@ -1,0 +1,33 @@
+{
+  "name": "furry.services",
+  "version": "1.0.0",
+  "description": "An api wrapper for furry.services.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "dependencies": {
+    "phin": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "@types/phin": "^3.4.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "build": "rm -rf build && tsc && echo Build Finished"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FurryBotCo/Furry.Services.git"
+  },
+  "keywords": [
+    "furry",
+    "furry.services",
+    "shorturl"
+  ],
+  "author": "Donovan_DMC <dwddaniels262@gmail.com> (https://furry.cool)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FurryBotCo/Furry.Services/issues"
+  },
+  "homepage": "https://github.com/FurryBotCo/Furry.Services#readme"
+}
